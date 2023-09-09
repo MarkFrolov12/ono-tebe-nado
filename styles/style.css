@@ -210,8 +210,6 @@ address {
   width: 60%;
 }
 
-
-
 footer {
   margin: 180px 50px 90px 50px;
   display: flex;
@@ -235,18 +233,13 @@ footer {
   line-height: normal;
 }
 
-.footer__social-list {
 
-}
 .footer__social-list-item {
- width: 48px;
- 
+  width: 48px;
 }
-.footer__social-link {
 
-}
 .footer__social-icon {
   display: flex;
   list-style-type: none;
- column-gap: 48px;
+  column-gap: 48px;
 }
