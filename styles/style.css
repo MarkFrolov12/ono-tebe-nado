@@ -68,12 +68,13 @@ address {
   padding-top: 135px;
 }
 .cover__description-text {
-  position: sticky;
-  color: white;
-  color: #fff;
-  word-spacing: 18px;
   font-size: 22px;
   font-style: normal;
+  position: sticky;
+  color: white;
+  
+  word-spacing: 18px;
+  
   line-height: 28px; /* 127.273% */
   text-transform: uppercase;
   padding-right: 80px;
