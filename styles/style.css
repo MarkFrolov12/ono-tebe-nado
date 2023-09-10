@@ -60,9 +60,10 @@
 }
 
 .cover {
-  background: url("/images/cover.jpg") center/cover;
-  
+  background-image: url("images/cover.jpg");
   color: #fff;
+  background-size: cover;
+  justify-content: center;
 }
 
 .cover__title {
