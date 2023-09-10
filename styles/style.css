@@ -60,7 +60,7 @@
 }
 
 .cover {
-  background-image: url("images/cover.jpg");
+  background-image: url(../images/cover.jpg);
   color: #fff;
   background-size: cover;
   justify-content: center;
