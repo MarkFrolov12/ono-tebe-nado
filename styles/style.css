@@ -1,3 +1,4 @@
+/* место для вашего кода */
 .header {
   font-size: 18px;
   font-weight: 400;
@@ -59,7 +60,8 @@
 }
 
 .cover {
-  background: url("../images/cover.jpg") center/cover;
+  background: url("/images/cover.jpg") center/cover;
+  
   color: #fff;
 }
 
