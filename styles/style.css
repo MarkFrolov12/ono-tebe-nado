@@ -222,16 +222,18 @@ address {
   gap: 120px;
 }
 .about__logo {
+  display:flex;
   float: left;
-  margin: 0 95px 0 95px;
+  margin: 0 0 0 95px;
   background-color: black;
   width: 240px;
   height: 240px;
   border-radius: 360px;
 }
 .about__logo-image {
-  padding: 63px 46px;
+  padding: 63px 43px;
   justify-content: center;
+  align-items: center;
 }
 .about__title {
   font-size: 40px;
