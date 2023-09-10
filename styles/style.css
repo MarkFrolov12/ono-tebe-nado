@@ -62,12 +62,35 @@ address {
 
 .aligned-text {
   text-align: start;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+  letter-spacing: 60px;
+  text-transform: uppercase;
 }
 .aligned-text_center {
   padding-top: 25px;
   text-align: center;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 60px;
+  text-transform: uppercase;
 }
 .aligned-text_right {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
   padding-top: 25px;
   text-align: end;
 }
