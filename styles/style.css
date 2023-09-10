@@ -172,14 +172,12 @@ address {
 
 .lots__card-list {
   display: flex;
-  position: relative;
-  flex-wrap: nowrap;
-  list-style: none;
   gap: 25px;
+  margin-top: 27px;
 }
 .card__title {
   position: relative;
-  padding: 50px 40px 0 40px;
+  padding: 50px 40px 30px 40px;
 
   color: white;
   font-size: 22px;
@@ -192,7 +190,7 @@ address {
 
 .card__text {
   position: relative;
-  padding: 30px 40px 50px 40px;
+  padding: 0 40px 50px 40px;
 
   color: white;
   font-size: 20px;
@@ -246,11 +244,10 @@ address {
   line-height: normal;
 }
 .about__text p {
-  padding: 25px 0 00;
+  padding: 25px 50px 0 0;
 }
 .column {
   margin: 100px 0 0 0;
-
   width: 66%;
 }
 
