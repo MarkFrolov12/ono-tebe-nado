@@ -128,7 +128,6 @@ address {
 
 .lots {
   display: flex;
-  
   flex-direction: column;
   background-color: #fff;
   padding: 180px 50px;
@@ -150,8 +149,7 @@ address {
   background-image: url(/images/card-lot-01.jpg);
   background-size: cover;
   position: relative;
-width: 100vw;
-  
+  width: 100vw;
 }
 .card_type_book {
   display: flex;
@@ -161,8 +159,6 @@ width: 100vw;
   background-size: cover;
   position: relative;
   width: 100vw;
- 
-
 }
 .card_type_picture {
   display: flex;
@@ -172,17 +168,14 @@ width: 100vw;
   background-size: cover;
   position: relative;
   width: 100vw;
- 
 }
 
 .lots__card-list {
-  
   display: flex;
   position: relative;
-    flex-wrap: nowrap;
-    list-style: none;
-    gap: 25px;
-  
+  flex-wrap: nowrap;
+  list-style: none;
+  gap: 25px;
 }
 .card__title {
   position: relative;
@@ -219,16 +212,13 @@ width: 100vw;
   text-decoration-line: underline;
 }
 
-.about {
- 
-}
 .about__column {
   justify-content: space-between;
   display: flex;
   gap: 120px;
 }
 .about__logo {
-  display:flex;
+  display: flex;
   float: left;
   margin: 0 0 0 95px;
   background-color: black;
