@@ -23,7 +23,7 @@ text-decoration: underline;
 
 }
 .header__logo {
-  margin: 0 353px 0 211px;
+  margin: 0 351px 0 213px;
 }
 
 address {
@@ -66,11 +66,11 @@ address {
   text-align: start;
 }
 .aligned-text_center {
-  padding-top: 20px;
+  
   text-align: center;
 }
 .aligned-text_right {
-  padding-top: 20px;
+  
   text-align: end;
 }
 .cover__description {
