@@ -125,7 +125,7 @@ address {
   padding: 12px 32px;
   justify-content: flex-end;
 }
-
+/*----------------------------------------------------*/
 .lots {
   display: flex;
   flex-direction: column;
@@ -169,7 +169,6 @@ address {
   position: relative;
   width: 100vw;
 }
-
 .lots__card-list {
   display: flex;
   gap: 25px;
@@ -177,7 +176,7 @@ address {
 }
 .card__title {
   position: relative;
-  padding: 50px 40px 30px 40px;
+  padding: 50px 35px 30px 40px;
 
   color: white;
   font-size: 22px;
@@ -190,7 +189,7 @@ address {
 
 .card__text {
   position: relative;
-  padding: 0 40px 50px 40px;
+  padding: 0 30px 50px 40px;
 
   color: white;
   font-size: 20px;
@@ -209,7 +208,7 @@ address {
   line-height: normal;
   text-decoration-line: underline;
 }
-
+/*------------------------------------------------------*/
 .about__column {
   justify-content: space-between;
   display: flex;
