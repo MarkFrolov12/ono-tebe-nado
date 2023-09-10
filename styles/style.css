@@ -15,14 +15,22 @@ header {
   font-style: normal;
 }
 
-.header__logo{
-  margin: 0 355px 0 209px;
+.header__link {
+text-decoration: none;
+}
+.header__link_active {
+text-decoration: underline;
+
+}
+.header__logo {
+  margin: 0 353px 0 211px;
 }
 
 address {
   padding: 0 0 0 5px;
   font-size: 18px;
   font-style: normal;
+  line-height: 24.3px;
 }
 
 .cover {
@@ -237,7 +245,6 @@ footer {
   font-weight: 400;
   line-height: normal;
 }
-
 
 .footer__social-list-item {
   width: 48px;
