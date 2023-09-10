@@ -99,7 +99,7 @@ address {
   align-items: center;
   justify-content: end;
   padding-right: 50px;
-  padding-top: 135px;
+  padding-top: 125px;
   padding-bottom: 50px;
 }
 .cover__description-text {
@@ -140,8 +140,6 @@ address {
   line-height: normal;
   text-transform: uppercase;
 }
-
-
 
 .card_type_film {
 display: flex;
@@ -225,19 +223,22 @@ display: flex;
   margin: 183px 50px 0 50px;
 }
 .about__column {
+  justify-content: space-between;
   display: flex;
-  column-gap: 125px;
+  gap: 120px;
 }
 .about__logo {
   float: left;
-  margin: 0 95px 0 95px;
+ margin: 0 95px 0 95px;
   background-color: black;
   width: 240px;
   height: 240px;
   border-radius: 360px;
+
 }
 .about__logo-image {
   padding: 63px 46px;
+  justify-content: center;
 }
 .about__title {
   font-size: 40px;
@@ -258,8 +259,8 @@ display: flex;
 }
 .column {
   margin: 100px 0 0 25px;
-  float: right;
-  width: 50%;
+ 
+  width: 60%;
 }
 
 footer {
