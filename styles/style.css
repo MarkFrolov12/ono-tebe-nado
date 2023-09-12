@@ -54,9 +54,10 @@
 .address {
   flex: 0 0 auto;
   width: 33.3%;
-  line-height: 135%;
+  line-height: 24.3px;
   font-style: normal;
   text-underline-position: under;
+  white-space: nowrap;
 }
 
 .cover {
