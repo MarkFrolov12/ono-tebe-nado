@@ -65,6 +65,7 @@
   color: #fff;
   background-size: cover;
   justify-content: center;
+  background-position: center;
 }
 
 .cover__title {
@@ -106,7 +107,7 @@
 
 .aligned-text_center {
   width: 100%;
-  max-width: 1310px;
+ 
   text-align: center;
 }
 
@@ -156,10 +157,6 @@
   flex: 1 0 0%;
   min-height: 450px;
   min-width: 430px;
-}
-
-.lots__card-list-item:first-child {
-  width: 33.3%;
 }
 
 .lots__card-list-item:last-child {
