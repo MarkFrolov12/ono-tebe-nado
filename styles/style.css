@@ -1,12 +1,11 @@
 /* место для вашего кода */
 .header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   font-size: 18px;
   font-weight: 400;
   padding: 92px 50px 96px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .header__menu {
@@ -52,12 +51,14 @@
 }
 
 .address {
-  flex: 0 0 auto;
+ 
   width: 33.3%;
   line-height: 24.3px;
   font-style: normal;
-  text-underline-position: under;
+
   white-space: nowrap;
+ 
+    text-underline-position: under;
 }
 
 .cover {
