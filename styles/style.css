@@ -16,7 +16,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 390px;
+  width: 395px;
 }
 nav {
   width: calc((100% - 141px) / 2);
