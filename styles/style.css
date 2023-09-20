@@ -16,7 +16,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 388px
+  width: 388px;
 }
 nav {
   width: calc((100% - 141px) / 2);
@@ -47,10 +47,8 @@ nav {
   flex-shrink: 0;
   max-width: 100%;
   padding-right: 150px;
- 
 }
 .header__logo-image {
-  
   width: 141px;
   height: 105px;
 }
@@ -59,11 +57,9 @@ nav {
   display: flex;
   flex-wrap: wrap;
   font-style: normal;
-  
-  width: calc((100% - 141px) / 2);
   width: 240px;
-height: 97px;
-flex-shrink: 0;
+  height: 97px;
+  flex-shrink: 0;
 }
 
 .cover {
