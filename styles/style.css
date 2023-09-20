@@ -16,10 +16,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: calc((100% -141px) / 2);
+  width: 388px
 }
 nav {
-  width: calc((100%-141px) / 2);
+  width: calc((100% - 141px) / 2);
 }
 
 .header__links-list {
@@ -45,16 +45,25 @@ nav {
 
 .header__logo {
   flex-shrink: 0;
+  max-width: 100%;
+  padding-right: 150px;
+ 
+}
+.header__logo-image {
+  
   width: 141px;
   height: 105px;
 }
-.header__logo-image {
-  max-width: 260px;
-}
 
 .address {
-  justify-content: flex-end;
-  width: calc((100%-141px) / 2);
+  display: flex;
+  flex-wrap: wrap;
+  font-style: normal;
+  
+  width: calc((100% - 141px) / 2);
+  width: 240px;
+height: 97px;
+flex-shrink: 0;
 }
 
 .cover {
