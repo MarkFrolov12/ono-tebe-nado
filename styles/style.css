@@ -260,11 +260,8 @@ nav {
   justify-content: space-between;
 }
 
-.footer__address {
-  padding-right: 15.5%;
-}
-
 .footer__menu {
+  padding-left: 200px;
   flex: 0 0 auto;
   width: auto;
   display: flex;
